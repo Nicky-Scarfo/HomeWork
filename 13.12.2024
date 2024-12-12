@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() 
+{
+    const int n = 6;
+    string anun[] = {"Vaspur", "Karo", "Erjanik", "Misak", "Hambarcum", "Vazgen"};
+    string azganun[] = {"Karapetyan", "Grigoryan", "Bagratyan", "Mesropyan", "Hakobyan", "Gevorgyan"};
+    int gumar[] = {151278, 212478, 125781, 189452, 58812, 98124};
+    for(int i = 0; i < n; i++) 
+        if(gumar[i] >= 100000 && gumar[i] <= 200000) 
+            cout << azganun[i] << " " << anun[i] << " - Ashxatavarc: " << gumar[i] << " AMD" << endl;
+    return 0;
+}
