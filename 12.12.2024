@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() 
+{
+    const int n = 6;
+    string cities[] = {"Yerevan", "Gyumri", "Vanadzor", "Meghri", "Goris", "Spitak"};
+    int count[] = {1092700, 112260, 77047, 4100, 17113, 18200};
+    for(int i = 0; i < n; i++) 
+        if(count[i] < 50000) 
+            cout << "City: " << cities[i] << "| Population: " << count[i] << endl;
+    return 0;
+}
