@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main() 
+{
+    const int n = 3;
+    string anun[] = {"Vaspur", "Karo", "Erjanik", "Misak", "Hambarcum", "Vazgen"};
+    string azganun[] = {"Karapetyan", "Grigoryan", "Bagratyan", "Mesropyan", "Hakobyan", "Gevorgyan"};
+    int tex[] = {1, 2, 3, 4, 5, 6};
+    for(int i = 0; i < n; i++) cout << tex[i] << ") " << azganun[i] << " " << anun[i] << endl;
+    return 0;
+}
